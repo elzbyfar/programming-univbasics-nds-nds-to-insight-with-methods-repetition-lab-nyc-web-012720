@@ -53,4 +53,4 @@ def total_gross(source)
   collective_total
 end
 
-total_gross(directors_totals)
+total_gross(directors_totals(directors_database))
