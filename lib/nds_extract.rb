@@ -4,15 +4,12 @@ require_relative './directors_database'
 def gross_for_director(d)
   total = 0
   index = 0
-
   while index < d[:movies].length do
     total += d[:movies][index][:worldwide_gross]
     index += 1
   end
-
   total
 end
-
 
 def directors_totals(source)
   result = {}
@@ -25,10 +22,14 @@ def directors_totals(source)
   result
 end
 
-
-
 def list_of_directors(source)
-  # Write this implementation
+  list = []
+  i = 0 
+  while i < source.length do 
+    list << source[i][:name]
+    i+=1 
+  end 
+  
 end
 
 def total_gross(source)
