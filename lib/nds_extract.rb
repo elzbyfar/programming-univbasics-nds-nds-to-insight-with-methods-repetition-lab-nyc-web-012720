@@ -46,12 +46,17 @@ def total_gross(source)
   collective_total = 0
   dir_arr = list_of_directors(source)
   dir_hash = directors_totals(source)
-  # i = 0 
-  # while i < dir_arr.length do 
-  #   dir_name = dir_arr[i]
+  
+  
+  
+  
+  
+  i = 0 
+  while i < dir_arr.length do 
+    dir_name = dir_arr[i]
     
-  # i+=1 
-  # end
+  i+=1 
+  end
   puts dir_hash
   # collective_total
 end
