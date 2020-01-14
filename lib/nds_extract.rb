@@ -50,7 +50,7 @@ def total_gross(source)
   # i+=1 
   # end
   puts directors_totals(source[0][:name])
-  collective_total
+  # collective_total
 end
 
 total_gross(directors_database)
