@@ -24,12 +24,16 @@ end
 
 def list_of_directors(source)
   list = []
-  i = 0 
-  while i < source.length do 
-    list << source[i][:name]
-    i+=1 
-  end 
-  list
+  list << directors_totals(source[:name])
+
+
+  # list = []
+  # i = 0 
+  # while i < source.length do 
+  #   list << source[i][:name]
+  #   i+=1 
+  # end 
+  # list
 end
 
 def total_gross(source)
