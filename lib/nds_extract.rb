@@ -25,7 +25,7 @@ end
 def list_of_directors(source)
   list = []
   i = 0 
-  while i < directors_totals(source).length do 
+  while i < directors_totals(source.length) do 
     list << directors_totals(source[i])
     i +=1 
   end
