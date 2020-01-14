@@ -24,7 +24,7 @@ end
 
 def list_of_directors(source)
   list = []
-  list << directors_totals(source[:name])
+  list << directors_totals(source)[:name]
 
 
   # list = []
