@@ -46,11 +46,11 @@ def total_gross(source)
   collective_total = 0 
   i = 0 
   while i < source.length do 
-    collective_total += directors_totals(source[i][:worldwide_gross])
+    collective_total += directors_totals(source)
   i+=1 
   end
-  
+  puts directors_totals(source[:name])
   collective_total
 end
 
-
+total_gross(directors_database)
