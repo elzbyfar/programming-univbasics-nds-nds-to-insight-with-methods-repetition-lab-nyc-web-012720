@@ -45,7 +45,7 @@ def total_gross(source)
   
   collective_total = 0 
   i = 0 
-  while i < list_of_directors(source).length 
+  while i < source.length 
     collective_total += directors_totals(source[i][:worldwide_gross])
   i+=1 
   end
