@@ -48,7 +48,7 @@ def total_gross(source)
   i = 0 
   while i < dir_arr.length do 
     dir_name = dir_arr[i]
-    puts directors_totals(source)
+    puts directors_totals(source)[dir_name]
   i+=1 
   end
   
