@@ -49,7 +49,7 @@ def total_gross(source)
   #   collective_total += directors_totals(source)
   # i+=1 
   # end
-  puts directors_totals(source)[:name]
+  puts directors_totals(source[:name])
   # collective_total
 end
 
