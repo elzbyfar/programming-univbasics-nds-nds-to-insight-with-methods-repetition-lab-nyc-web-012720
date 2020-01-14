@@ -53,12 +53,11 @@ def total_gross(source)
   
   i = 0 
   while i < dir_arr.length do 
-    dir_name = dir_arr[i]
-    
+    collective_total = collective_total + dir_hash[dir_arr[i]]
   i+=1 
   end
-  puts dir_hash
-  # collective_total
+  puts collective_total
+  collective_total
 end
 
 total_gross(directors_database)
