@@ -43,13 +43,14 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  # collective_total = 0 
-  # i = 0 
-  # while i < list_of_directors(source).length do 
-  #   dir_name = list_of_directors(source)[i]
-  # i+=1 
-  # end
-  puts "hi"
+  collective_total = 0 
+  dir_arr = list_of_directors(source)
+  i = 0 
+  while i < dir_arr.length do 
+    dir_name = dir_arr[i]
+  i+=1 
+  end
+  puts directors_totals(source[dir_name])
   # collective_total
 end
 
